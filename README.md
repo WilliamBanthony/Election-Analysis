@@ -22,6 +22,7 @@ election_results.csv related to the comma-separated values that I used and Resou
 
 Another modification is the loading path. Below is the code:
 * file_to_save = os.path.join("results", "election_results.txt")
+
 This relates to the text file that I created with the analysis. This will need to be altered if you do not want to overwrite your analysis of previous election results. 
 
 A last modification must be made to where the code receives it's values from the csv file. Below is the code:
