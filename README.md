@@ -27,5 +27,6 @@ This relates to the text file that I created with the analysis. This will need t
 A last modification must be made to where the code receives it's values from the csv file. Below is the code:
 * candidate_name = row[2]
 * county_name = row[1]
+
 These rows numbers will have to be altered if the csv file of other elections do not place the candidate name and county name in the same location
 
